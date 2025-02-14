@@ -1,9 +1,4 @@
 {
   "routes": [
-    {
-      "route": "/*",
-      "redirect": "/path1",
-      "statusCode": 200
-    }
   ]
 }
