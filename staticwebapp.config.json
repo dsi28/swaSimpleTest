@@ -16,6 +16,10 @@
     {
       "route": "/test2",
       "rewrite": "/"
+    },
+    {
+      "route": "/",
+      "redirect": "/index.html"
     }
   ]
 }
