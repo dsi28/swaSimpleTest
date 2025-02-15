@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/calendar*",
-      "rewrite": "index.html"
+      "statusCode": 500
     },
     {
       "route": "/path1*",
