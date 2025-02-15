@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/calendar*",
-      "rewrite": "/index.html"
+      "rewrite": "index.html"
     },
     {
       "route": "/path1*",
