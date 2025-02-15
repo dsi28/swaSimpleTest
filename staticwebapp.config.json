@@ -8,6 +8,10 @@
     {
       "route": "/test",
       "redirect": "/"
+    },
+    {
+      "route": "/test2",
+      "rewrite": "/"
     }
   ],
   "navigationFallback": {
