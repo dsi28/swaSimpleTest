@@ -1,6 +1,10 @@
 {
   "routes": [
     {
+      "route": "/calendar*",
+      "rewrite": "/calendar.html"
+    },
+    {
       "route": "/path1",
       "redirect": "/",
       "statusCode": 301
@@ -13,21 +17,5 @@
       "route": "/test2",
       "rewrite": "/"
     }
-  ],
-  "navigationFallback": {
-    "rewrite": "/index.html"
-  },
-  "responseOverrides": {
-    "404": {
-      "rewrite": "/404.html"
-    }
-  },
-  "globalHeaders": {
-    "X-Content-Type-Options": "nosniff",
-    "X-Frame-Options": "DENY"
-  },
-  "mimeTypes": {
-    ".json": "application/json",
-    ".html": "text/html"
-  }
+  ]
 }
