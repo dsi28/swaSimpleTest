@@ -5,7 +5,7 @@
       "rewrite": "/calendar.html"
     },
     {
-      "route": "/path1",
+      "route": "/path1*",
       "redirect": "/",
       "statusCode": 301
     },
