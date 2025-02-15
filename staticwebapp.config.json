@@ -6,7 +6,7 @@
     },
     {
       "route": "/path1*",
-      "redirect": "/",
+      "redirect": "/calendar.html",
       "statusCode": 301
     },
     {
