@@ -4,6 +4,10 @@
       "route": "/path1",
       "redirect": "/",
       "statusCode": 301
+    },
+    {
+      "route": "/test",
+      "redirect": "/"
     }
   ],
   "navigationFallback": {
